@@ -25,7 +25,7 @@ def generate_lottery_results(lottery_name, layer):
             "number_3": numbers[2]
         })
 
-        # Añade un efecto de actualización o animación si es necesario
+    
         caspar_client.cg_invoke(layer, "animateIn")
 
         # Espera unos segundos antes de actualizar
